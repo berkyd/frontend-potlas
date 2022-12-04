@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Bolygók</title>
+</head>
+<body>
+    <div class="container">
+        <div class="osszesBolygo">
+            <button class="osszBolygoButton">Összes bolygó</button>
+            <ul class="lista1"></ul>
+        </div>
+        <div class="TheM">
+            <button class="TheMButton">TheM</button>
+            <p class="bekezdes"></p>
+        </div>
+        <div class="KisebbNagyobb">
+            <button class="kisebbNagyobbButton">KisebbNagyobb</button>
+            <input type="number" class="elsoSzam" placeholder="min">
+            <input type="number" class="masodikSzam" placeholder="max">
+            <ul class="lista2"></ul>
+        </div>
+        <div class="Torpe">
+            <button class="torpeButton">Törpe</button>
+            <input type="checkbox" class="checkBoxClass">
+            <input type="number" class="terulet" readonly>
+        </div>
+    </div>
+    <script src="./dist/main.js"></script>
+</body>
+</html>
